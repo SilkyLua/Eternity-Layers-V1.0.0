@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+* {
+    font-family: 'Patrick Hand', cursive;
+    letter-spacing: 2px;
+}
+
+body {
+    background-image: radial-gradient(rgb(30, 30, 30),rgb(0, 0, 0));
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.eternity-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    height: 50px;
+}
+
+.eternityText {
+    color: white;
+    font-size: 20px;
+}
+
+#EternityAmount {
+    color: rgb(250, 218, 137);
+    font-size: 25px;
+}
+
+.tickText-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    height: 50px;
+}
+
+.tickText {
+    color: white;
+    font-size: 15px;
+}
+
+#EternityPerTick {
+    color: rgb(247, 204, 124);
+}
+
+#TickAmount {
+    color: rgb(112, 245, 245);
+}
+
+.Tick-Container {
+    display: flex;
+    margin-top: 0%;
+    justify-content: center;
+    height: 30px;
+}
+
+.TickButtons { 
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    background-color: black;
+    border-radius: 5px;
+    border-color: rgb(185, 254, 181);
+    height: 35px;
+    width: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.TickPercent {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    color: white;
+    font-size: 14px;
+}
+
+.TickPercentAmount {
+    color: aquamarine;
+}
+
+.framebutton-container {
+    display: flex;
+    justify-content: left;
+    height: 60px;
+}
+
+.FrameButtons {
+    background-color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    height: 40px;
+    width: 8%;
+    font-size: 15px;
+}
+
+#EterniumsFrameButton {border-color: rgb(255, 220, 155); color: rgb(255, 220, 155);}
+#StatsFrameButton {border-color: rgb(255, 155, 155); color: rgb(255, 155, 155);}
+#SettingsFrameButton {border-color: rgb(167, 255, 255); color: rgb(167, 255, 255);}
+#AchievementsFrameButton {border-color: rgb(253, 255, 163); color: rgb(253, 255, 163);}
+
+.EterniumSubFrameButtons {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.EterniumSubButtons {
+    background-color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+    width: 10%;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+}
+
+#EterniumsSubFrame {border-color: bisque; color: bisque;}
+#UpgradesSubFrame {border-color: rgb(170, 170, 255); color:rgb(170, 170, 255);}
+
+.eternium-container {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 1%;
+    height: 400px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.upgrade-container {
+    display: flex;
+    margin-top: 1%;
+    height: 400px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.eternium {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;
+    color: white;
+    height: 45px;
+}
+
+.GenBuyOne {
+    background-color: black;
+    border-color: rgb(254, 196, 196);
+    margin-left: 15%;
+    width: 12%;
+    height: 40px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.GenBuyUntilTen {
+    background-color: black;
+    border-color: rgb(254, 196, 196);
+    margin-left: 1%;
+    width: 15%;
+    height: 40px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.GenMulti {
+    margin-left: 2%;
+    width: 20%;
+}
+.GenAmount {
+    margin-left: 15%;
+    width: 20%;
+}
+
+#ResetButton {
+    background-color: black;
+    border-color: rgb(141, 143, 255);
+    margin-left: 29.5%;
+    width: 13%;
+    height: 40px;
+    margin-top: 5px;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#UpgradePoint {
+    margin-left: 15%;
+}
+
+.ResetDisplayColor {
+    color: rgb(128, 142, 255);
+}
+
+#JaredLeto {
+    position: absolute;
+    display: none;
+    margin-left: 93%;
+    width: 6%;
+    height: 80px;
+}
+
+#upgrade {
+    display: none;
+}
+
+#UpgradeTextRequire {
+    color: white;
+    margin-left: 39%;
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.upgradeButtons {
+    display: none;
+    border-color: rgb(141, 143, 255);
+    background-color: black;
+    width: 10%;
+    height: 20px;
+}

@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Eternity Layers V1.0.0</title>
+</head>
+<body>
+    <img id="JaredLeto" src="JaredLeto.png" alt="">
+    <div class="eternity-container">
+        <p class="eternityText" id="Eternity">You Have <p2 class="eternityText" id="EternityAmount">10</p2> Eternity</p>
+    </div>
+    <div class="tickText-container">
+        <p class="TickText">You Get <p2 id="EternityPerTick">0</p2> Eternity Per Second</p>
+    </div>
+    <div class="Tick-Container">
+        <button class ="TickButtons" id="TickButton" onclick="EternityUpgradeClick(this.id)"></button>
+        <button class="TickButtons" id="MaxButton">Buy Max</button>
+    </div>
+    <div class="TickPercent">
+        <p class="TickPercentText">Increase Eternity And Eternium Gain By <p2 class="TickPercentAmount">1.11x</p2> <p3 id="EternityUpgradeMulti">(1x)</p3></p>
+    </div>
+    <div class="framebutton-container">
+        <button class="FrameButtons" id="EterniumsFrameButton">Eterniums</button>
+        <button class="FrameButtons" id="StatsFrameButton">Stats</button>
+        <button class="FrameButtons" id="SettingsFrameButton">Settings</button>
+        <button class="FrameButtons" id="AchievementsFrameButton">Achievements</button>
+    </div>
+    <div class="EterniumSubFrameButtons">
+        <button class="EterniumSubButtons" id="EterniumsSubFrame" onclick="OpenEterniumSub(this.id)">Eterniums</button>
+        <button class="EterniumSubButtons" id="UpgradesSubFrame" onclick="OpenEterniumSub(this.id)">Upgrades</button>
+    </div>
+    <div class="eternium-container" id="eternium">
+        <div class="eternium" id="gen1">
+            <p class ="GenMulti" id ="gen1Multi" ></p>
+            <p class ="GenAmount" id ="gen1Amount"></p>
+            <button class="GenBuyOne" id ="gen1BuyOne" onclick="EternityButtonOnClick(this.id)"></button>
+            <button class="GenBuyUntilTen" id="gen1BuyUntilTen" onclick="EternityButtonOnClick(this.id)"></button>
+        </div>
+        <div class="eternium" id="gen2">
+            <p class ="GenMulti" id ="gen2Multi"></p>
+            <p class ="GenAmount" id ="gen2Amount"></p>
+            <button class="GenBuyOne" id ="gen2BuyOne"onclick="EternityButtonOnClick(this.id)"></button>
+            <button class="GenBuyUntilTen" id="gen2BuyUntilTen"onclick="EternityButtonOnClick(this.id)"></button>
+        </div>
+        <div class="eternium" id="gen3">
+            <p class ="GenMulti" id ="gen3Multi"></p>
+            <p class ="GenAmount" id ="gen3Amount"></p>
+            <button class="GenBuyOne" id ="gen3BuyOne"onclick="EternityButtonOnClick(this.id)"></button>
+            <button class="GenBuyUntilTen" id="gen3BuyUntilTen"onclick="EternityButtonOnClick(this.id)"></button>
+        </div>
+        <div class="eternium" id="gen4">
+            <p class ="GenMulti" id ="gen4Multi"></p>
+            <p class ="GenAmount" id ="gen4Amount"></p>
+            <button class="GenBuyOne" id ="gen4BuyOne"onclick="EternityButtonOnClick(this.id)"></button>
+            <button class="GenBuyUntilTen" id="gen4BuyUntilTen"onclick="EternityButtonOnClick(this.id)"></button>
+        </div>
+        <div class="eternium" id="gen5">
+            <p class ="GenMulti" id ="gen5Multi"></p>
+            <p class ="GenAmount" id ="gen5Amount"></p>
+            <button class="GenBuyOne" id ="gen5BuyOne"onclick="EternityButtonOnClick(this.id)"></button>
+            <button class="GenBuyUntilTen" id="gen5BuyUntilTen"onclick="EternityButtonOnClick(this.id)"></button>
+        </div>
+        <div class="eternium" id="gen6">
+            <p class ="GenMulti" id ="gen6Multi"></p>
+            <p class ="GenAmount" id ="gen6Amount"></p>
+            <button class="GenBuyOne" id ="gen6BuyOne"onclick="EternityButtonOnClick(this.id)"></button>
+            <button class="GenBuyUntilTen" id="gen6BuyUntilTen"onclick="EternityButtonOnClick(this.id)"></button>
+        </div>
+        <div class="eternium" id="gen7">
+            <p class ="GenMulti" id ="gen7Multi"></p>
+            <p class ="GenAmount" id ="gen7Amount"></p>
+            <button class="GenBuyOne" id ="gen7BuyOne"onclick="EternityButtonOnClick(this.id)"></button>
+            <button class="GenBuyUntilTen" id="gen7BuyUntilTen"onclick="EternityButtonOnClick(this.id)"></button>
+        </div>
+        <div class="eternium" id="gen8">
+            <p class ="GenMulti" id ="gen8Multi"></p>
+            <p class ="GenAmount" id ="gen8Amount"></p>
+            <button class="GenBuyOne" id ="gen8BuyOne"onclick="EternityButtonOnClick(this.id)"></button>
+            <button class="GenBuyUntilTen" id="gen8BuyUntilTen"onclick="EternityButtonOnClick(this.id)"></button>
+        </div>
+        <div class="eternium" id="reset">
+            <p class="Reset ResetDisplayColor" id="Desc">Reset (<p3 id="ResetAmount" >0</p3>): requires <p2 id="ResetRequire">1B</p2> Eternity</p>
+            <p class="Reset ResetDisplayColor" id="UpgradePoint">Reset For <p2 id="ResetPoints">1</p2> Upgrade Point</p>
+            <button class="Reset" id="ResetButton" onclick="ResetButton(this.id)">Reset</button>
+        </div>
+        
+    </div>
+    <div class="upgrade-container" id="upgrade">  
+        <p id="UpgradeTextRequire">Reset Atleast Once To Unlock Upgrades!</p>
+        <div class="upgradeButtons-container" id="upgradeButtons">
+            <button class="upgradeButtons" id="upgradeButton1">Locked</button>
+        </div>
+    </div>
+</body>
+<script src="break_infinity.js"></script>
+<script src="Notations.js"></script>
+<script src="Player.js"></script>
+<script src="Reset.js"></script>
+<script src="Buttons.js"></script>
+<script src="Gains.js"></script>
+<script src="UpdateUI.js"></script>
+</html>
